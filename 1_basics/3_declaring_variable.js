@@ -34,7 +34,9 @@ console.log(newJeans);
  */
 var name = '코드팩토리';
 
+// undefined
 let girlFriend;
 console.log(girlFriend);
 
+// 값 초기화 필요하다.
 const girlFriend2;
