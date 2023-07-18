@@ -29,6 +29,9 @@ console.log(typeof tempature);
 console.log(typeof pi);
 console.log('--------------');
 
+/**
+ * 무한대 선언
+ */
 const infinity = Infinity;
 const nInfinity = -Infinity;
 
@@ -63,6 +66,9 @@ console.log(backSlash);
 const smallQutoation = '아이브\'코드팩토리';
 console.log(smallQutoation);
 
+/**
+ * ₩ 이거 이용하면 있는 그대로 출력.
+ */
 const iveWonYoung2 = `아이브i '" / / / / / /
 장원영`;
 console.log(iveWonYoung2);
@@ -90,7 +96,7 @@ console.log(typeof isFalse);
  * 
  * 직접 undefined로 값을 초기화하는건 지양해야한다.
  */
-let noInit;
+let noInit; // let noInit = undefined 할필요없다.
 console.log(noInit);
 console.log(typeof noInit);
 
@@ -116,12 +122,12 @@ console.log('----------')
 const test1 = '1';
 const test2 = '1';
 
-console.log(test1 === test2);
+console.log(test1 === test2); // true;
 
 const symbol1 = Symbol('1');
 const symbol2 = Symbol('1');
 
-console.log(symbol1 === symbol2);
+console.log(symbol1 === symbol2); // false;
 
 /**
  * Object 타입
@@ -173,7 +179,7 @@ console.log(typeof iveMembersArray);
 
 /**
  * static typing -> 변수를 선언할때 어떤 타입의 변수를 선언할지 명시를한다.
- *                  C
+ *                  C 언어가 예다.
  * dynamic typing -> 변수의 타입을 명시적으로 선언하지 않고 갑에의해 타입을 "추론"한다.
- * JS -> dynamic typing
+ * JS -> dynamic typing 이다.
  */
