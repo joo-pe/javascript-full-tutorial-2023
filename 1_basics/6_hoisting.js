@@ -20,4 +20,4 @@ console.log('----------');
 // console.log(name);
 
 console.log(yuJin);
-const yuJin = '안유진';
+var yuJin = '안유진';  //var 로 하면 undefined , let,const 로 하면 에러
