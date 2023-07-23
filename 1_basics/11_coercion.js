@@ -36,11 +36,11 @@ console.log('-------------------_');
 /**
  * Boolean 타입으로의 변환
  */
-console.log(!!'asdkfjhalksdfjasdfx');
+console.log(!!'asdkfjhalksdfjasdfx'); // true
 
-console.log(!!'');
+console.log(!!''); //false
 
-console.log(!!0);
+console.log(!!0); //false
 console.log(!!'0');
 console.log(!!'false');
 console.log(!!false);
